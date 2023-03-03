@@ -961,6 +961,14 @@ ul {
   }
 
 
+  .registration-form-checkbox:checked ~ .registration-form-check > .check {
+    opacity: 1;
+  }
+
+  .registration-form-checkbox:checked ~ .registration-form-check > .uncheck {
+    opacity: 0;
+  }
+
   /* registration form button */
   .registration-form-btn {
     display: block;
